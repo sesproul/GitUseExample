@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7908B8E6175BFCEC001C0A23 /* MapForItinerary.m in Sources */ = {isa = PBXBuildFile; fileRef = 7908B8E5175BFCEC001C0A23 /* MapForItinerary.m */; };
 		7970B686175BBB14005E4CEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7970B685175BBB14005E4CEF /* UIKit.framework */; };
 		7970B688175BBB14005E4CEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7970B687175BBB14005E4CEF /* Foundation.framework */; };
 		7970B68A175BBB14005E4CEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7970B689175BBB14005E4CEF /* CoreGraphics.framework */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7908B8E4175BFCEC001C0A23 /* MapForItinerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapForItinerary.h; sourceTree = "<group>"; };
+		7908B8E5175BFCEC001C0A23 /* MapForItinerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapForItinerary.m; sourceTree = "<group>"; };
 		7970B681175BBB14005E4CEF /* GitUseExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitUseExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7970B685175BBB14005E4CEF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7970B687175BBB14005E4CEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,6 +92,8 @@
 				7970B6A0175BBB1D005E4CEF /* ViewController.h */,
 				7970B6A1175BBB1D005E4CEF /* ViewController.m */,
 				7970B68C175BBB15005E4CEF /* Supporting Files */,
+				7908B8E4175BFCEC001C0A23 /* MapForItinerary.h */,
+				7908B8E5175BFCEC001C0A23 /* MapForItinerary.m */,
 			);
 			path = GitUseExample;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 				7970B692175BBB16005E4CEF /* main.m in Sources */,
 				7970B696175BBB18005E4CEF /* AppDelegate.m in Sources */,
 				7970B6A2175BBB1D005E4CEF /* ViewController.m in Sources */,
+				7908B8E6175BFCEC001C0A23 /* MapForItinerary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +298,7 @@
 				7970B6A7175BBB1D005E4CEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
